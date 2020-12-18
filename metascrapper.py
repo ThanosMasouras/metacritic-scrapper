@@ -276,40 +276,7 @@ def load_games_from_json(filename):
     return json_data
 
 
-#x = get_texts_from_all_pages('https://www.metacritic.com/browse/games/release-date/new-releases/ps4/date?page=', 'a.title > h3')
-    
 
-
-
-#x = get_games_from_all_pages('https://www.metacritic.com/browse/games/release-date/new-releases/ps4/metascore?view=condensed')
-
-#print(x[1])
-#if if_empty_page('https://www.metacritic.com/browse/games/genre/metascore/action/all?page=105'):
-   # print("Empty Page")
-
-
-#object_all_games_test1 = get_games_from_one_page('https://www.metacritic.com/browse/games/release-date/new-releases/ps4/metascore/filtered?page=')
-
-#print(object_all_games_test1[0])
-
-#lastofus = Game(None, None, None,None, None, None, None, 'https://www.metacritic.com/game/playstation-4/the-last-of-us-part-ii')
-#lastofus.getGameDetails()
-#lastofus.print_Details()
-# einai mexri to get games from all pages games= antikeimena
-#x = get_games_from_one_page("https://www.metacritic.com/browse/games/release-date/new-releases/ps4/metascore/filtered?page=")
-#print(len(x))
-#x[0].print_Details()
-
-#y = get_games_from_all_pages('https://www.metacritic.com/browse/games/score/userscore/90day/filtered?page=')
-#print(y[1])
-#print(get_game_url("VAMPIRE: THE MASQUERADE - SHADOWS OF NEW YORK", "PC"))
-#json_data = load_games_from_json("newgamesreleases")
-#print(json_data[1])
-
-
-#print("["+ time_string() + "]")
-
-#get_number_of_pages('https://www.metacritic.com/browse/games/score/metascore/all/ps4/filtered')
 def menu():
     print("""\
                     _                  _ _   _          ____                                       
